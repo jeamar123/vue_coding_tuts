@@ -1,0 +1,118 @@
+.auth-container{
+  background: #FFF;
+  padding: 30px 100px;
+  min-height: 100vh;
+}
+.auth-container .need-help-container{
+	text-align: right;
+	position: relative;
+}
+.auth-container .need-help-container .need-help-text{
+	font-size: 16px;
+  color: #777;
+  font-weight: 700;
+}
+.auth-container .need-help-container .need-help-drop-container{
+	display: none;
+	text-align: left;
+  position: absolute;
+  top: 35px;
+  right: 0;
+  width: 310px;
+  color: #FFFFFF;
+  background: #f1eded;
+  height: auto;
+  line-height: 30px;
+  padding: 35px 35px;
+  z-index: 9999;
+  font-weight: 700;
+}
+.auth-container .need-help-container .need-help-drop-container:after {
+  content: '';
+  position: absolute;
+  top: -10px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border-bottom: 10px solid #efefef;
+  border-right: 10px solid transparent;
+  border-left: 10px solid transparent;
+  z-index: 9999;
+}
+.auth-container .need-help-container .need-help-drop-container p{
+	color: #8a8a8a;
+  font-size: 16px;
+  line-height: 1;
+  margin-bottom: 8px;
+}
+.auth-container .need-help-container .need-help-drop-container p.title{
+  color: #0392cf;
+  font-size: 22px;
+}
+.auth-container .need-help-container .need-help-drop-container p.subtitle{
+  color: #494949;
+  font-size: 18px;
+}
+
+.auth-container .need-help-container > a:hover + .need-help-drop-container{
+	display: block;
+}
+.auth-container .medne-icon-wrapper{
+	text-align: center;
+	width: 250px;
+	margin: 80px auto 20px auto;
+}
+.auth-container .medne-icon-wrapper img{
+	width: 100%;
+}
+.auth-container .medne-icon-wrapper p{
+	font-size: 25px;
+	font-weight: 700;
+	margin: 10px 0 0 0;
+	color: #888;
+}
+.auth-container .login-container,
+.auth-container .forgot-password-container{
+	width: 400px;
+	margin: 0 auto;
+}
+.auth-container .login-container input[type='text'],
+.auth-container .login-container input[type='password'],
+.auth-container .forgot-password-container input[type='text'],
+.auth-container .forgot-password-container input[type='password']{
+	height: 70px;
+  padding: 0 25px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.auth-container .login-container input[type='checkbox']{
+  height: 16px;
+  width: 16px;
+  position: relative;
+  top: 5px;
+  margin-right: 2px;
+}
+.auth-container .login-container .login-button-wrapper,
+.auth-container .forgot-password-container .login-button-wrapper{
+	margin: 5px 0 20px 0;
+}
+.auth-container .login-container .login-button-wrapper .btn,
+.auth-container .forgot-password-container .login-button-wrapper .btn{
+	width: 100%;
+  padding: 19px 0;
+  background-color: #0392cf;
+  font-size: 18px;
+  font-weight: 700;
+}
+.auth-container .login-container .forgot-password-wrapper,
+.auth-container .forgot-password-container .forgot-password-wrapper{
+	text-align: right;
+}
+.auth-container .login-container .forgot-password-wrapper p,
+.auth-container .forgot-password-container .forgot-password-wrapper p{
+	text-decoration: underline;
+	font-weight: 700;
+	font-size: 16px;
+	display: inline-block;
+	cursor: pointer;
+}

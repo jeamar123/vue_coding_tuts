@@ -1,0 +1,36 @@
+.auth-container{
+  padding: 30px 100px;
+  min-height: 100vh;
+  background: #4E7DEA;
+  
+  .logo-wrapper{
+    margin-top: 50px;
+    text-align: center;
+
+    img{
+      width: 250px;
+    }
+  }
+  .login-wrapper{
+    margin: 30px auto;
+    background: #FFF;
+    width: 500px;
+    padding: 30px;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 2px 1px -1px rgba(0,0,0,.12);
+  }
+  .login-wrapper .form-div{
+    margin-bottom: 20px;
+  }
+  .login-wrapper input{
+    border-width: 0 0 1px 0;
+    border-radius: 0;
+    padding-left: 5px;
+  }
+  .login-wrapper .login-btn{
+    background-color: #106CC8;
+    color: #FFF;
+    padding: 10px 22px;
+    font-size: 16px;
+    margin: 20px 0 10px 0;
+  }
+}
