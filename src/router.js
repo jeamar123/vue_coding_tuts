@@ -26,12 +26,12 @@ export default new Router({
     {
       path: '/dashboard',
       name: 'Dashboard',
-      redirect: '/dashboard/post',
+      redirect: '/post',
       component: Dashboard,
       // meta: { auth: true },
       children: [
-        { name: 'Home', path: '/dashboard/home', component: Home },
-        { name: 'Post', path: '/dashboard/post', component: Post },
+        { name: 'Home', path: '/home', component: Home },
+        { name: 'Post', path: '/post', component: Post },
       ]
     },
     
