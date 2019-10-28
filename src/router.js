@@ -9,6 +9,7 @@ axios.defaults.serverUrl = 'http://mednefits.local';
 import Auth from './views/Auth.vue'
 import Dashboard from './views/Dashboard.vue'
 import Home from './views/Home.vue'
+import Post from './views/Post.vue'
 
 
 Vue.use(Router)
@@ -25,11 +26,12 @@ export default new Router({
     {
       path: '/dashboard',
       name: 'Dashboard',
-      redirect: '/dashboard/home',
+      redirect: '/dashboard/post',
       component: Dashboard,
       // meta: { auth: true },
       children: [
         { name: 'Home', path: '/dashboard/home', component: Home },
+        { name: 'Post', path: '/dashboard/post', component: Post },
       ]
     },
     

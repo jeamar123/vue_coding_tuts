@@ -6,13 +6,16 @@
 :root {
   --primary-font: 'Helvetica Light';
   --secondary-font: 'Helvetica Medium';
+  --opensans-font: 'Open Sans';
+  --opensanslite-font: 'Open Sans Light';
+  --times-font: 'Times New Roman';
 
   --font-black: #333;
   --font-gray: #777;
   --font-success: #35ad35;
   --font-error: #ff0000c9;
 
-  --bg-color: #f2f5f7;
+  --bg-color: #FFF;
   
   --primary-btn: #bbb;
   --danger-btn: #ff5757;
