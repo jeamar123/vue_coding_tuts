@@ -7,6 +7,9 @@ import VueSweetalert2 from 'vue-sweetalert2';
 import VueMoment from 'vue-moment';
 // import VueSlider from 'vue-slider-component';
 // import JsonExcel from 'vue-json-excel'
+import CKEditor from '@ckeditor/ckeditor5-vue';
+
+
  
 import $ from 'jquery'; 
 
@@ -20,6 +23,7 @@ import router from './router';
 Vue.use(vClickOutside);
 Vue.use(VueSweetalert2);
 Vue.use(VueMoment);
+Vue.use( CKEditor );
 // Vue.component('VueSlider', VueSlider);
 // Vue.component('downloadExcel', JsonExcel)
 Vue.config.productionTip = false;

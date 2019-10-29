@@ -9,15 +9,15 @@
 	max-width: 680px;
 	font-family: var( --times-font );
 }
-.topic-container .content-main-title{
+.topic-container h1{
 	font-size: 40px;
 	margin-bottom: 25px;
 }
-.topic-container .post-text{
+.topic-container p{
 	font-size: 21px;
 	margin-bottom: 15px;
 }
-.topic-container .post-img{
+.topic-container img{
 	width: 100%;
 	margin: 20px 0;
 }

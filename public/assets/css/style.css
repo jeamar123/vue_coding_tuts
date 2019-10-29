@@ -9,6 +9,7 @@
   --opensans-font: 'Open Sans';
   --opensanslite-font: 'Open Sans Light';
   --times-font: 'Times New Roman';
+  --myriad-font: 'Myriad';
 
   --font-black: #333;
   --font-gray: #777;
@@ -766,7 +767,8 @@ body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) { overflow-y: v
   }
 
   *::-webkit-scrollbar-thumb{
-    background-color: #0392cf;
+    background-color: #133c50;
+    /*background-color: #0392cf;*/
     /*background-image: -webkit-gradient(linear, 0 0, 0 100%,*/
                        /*color-stop(.5, rgba(255, 255, 255, .2)),*/
                        /*color-stop(.5, transparent), to(transparent));*/

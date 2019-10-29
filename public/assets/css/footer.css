@@ -1,0 +1,28 @@
+.footer-container{
+	height: 300px;
+	padding: 60px 0;
+	background: #0d222d;
+}
+.footer{
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1032px;
+}
+.footer .top-box{
+	border-bottom: 1px solid rgba(255, 255, 255, 0.54);
+	display: flex;
+}
+.footer .row-items{
+	flex: 1;
+	padding: 25px 30px;
+}
+.footer .row-items p.title{
+	font-size: 20px;
+	color: rgba(255, 255, 255, 0.9);
+	margin-bottom: 8px;	
+}
+.footer .row-items p.desc{
+	color: rgba(255, 255, 255, 0.7);
+	font-size: 13px;
+	letter-spacing: 1px;
+}

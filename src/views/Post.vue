@@ -1,9 +1,9 @@
 <template>
 	<div class="post-container">
 		<div class="topic-container">
-			<div class="content-main-title">
+			<h1 class="content-main-title">
 				Solved: Unable to load script from assets ‘index.android.bundle’
-			</div>
+			</h1>
 
 			<p class="post-text">
 				Lets fix this error, once and for all!
